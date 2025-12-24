@@ -1,6 +1,14 @@
 export const siteContent = {
     siteName: "Técnico.Local",
     whatsappLink: "#", // Replace with actual WhatsApp link
+    seo: {
+        city: "São Paulo",
+        region: "Zona Sul",
+        state: "SP",
+        title: "Manutenção de Computadores e Impressoras em São Paulo - Zona Sul",
+        description:
+            "Técnico autônomo em São Paulo, Zona Sul. Manutenção de computadores e impressoras com diagnóstico honesto, reparos profissionais e atendimento direto em domicílio ou laboratório.",
+    },
     contact: {
         location: "São Paulo / SP - Zona Sul",
         phone: "(11) 99999-9999",
@@ -13,7 +21,7 @@ export const siteContent = {
         description:
             "Diagnóstico técnico preciso, reparos profissionais e atendimento direto ao cliente em São Paulo e Região.",
         locationInfo:
-            "Atendimento técnico em domicílio ou laboratório, com disponibilidade inclusive aos fins de semana.",
+            "Atendimento em São Paulo, Zona Sul — em domicílio ou laboratório, inclusive aos fins de semana.",
         ctaWhatsApp: "Falar no WhatsApp",
         ctaServices: "Ver Serviços",
         terminal: {
