@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Noto_Sans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -16,11 +18,9 @@ const notoSans = Noto_Sans({
 
 export const metadata: Metadata = {
   title: "Técnico.Local - Manutenção de Computadores e Impressoras",
-  description: "Diagnóstico técnico preciso, reparos profissionais e atendimento direto ao cliente em São Paulo e Região.",
+  description:
+    "Diagnóstico técnico preciso, reparos profissionais e atendimento direto ao cliente em São Paulo e Região.",
 };
-
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
 
 export default function RootLayout({
   children,
