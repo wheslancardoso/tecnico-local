@@ -38,4 +38,33 @@ export const siteContent = {
     footer: {
         copyright: "Técnico Autônomo. Todos os direitos reservados.",
     },
+    whyChoose: {
+        title: "Por que contratar um suporte técnico especializado?",
+        highlight: {
+            value: "100%",
+            label: "Comprometimento com a solução",
+        },
+        differentials: [
+            {
+                title: "Experiência Real",
+                description:
+                    "Conhecimento prático adquirido em bancada técnica e atendimento em campo, lidando com falhas reais do dia a dia.",
+            },
+            {
+                title: "Múltiplas Marcas",
+                description:
+                    "Atendimento técnico para computadores e impressoras de diversas marcas, sem dependência de fornecedor específico.",
+            },
+            {
+                title: "Transparência no Diagnóstico",
+                description:
+                    "Avaliação técnica honesta, sem troca de peças desnecessárias ou orçamentos inflados.",
+            },
+            {
+                title: "Contato Direto",
+                description:
+                    "Atendimento feito diretamente pelo técnico responsável, sem intermediários ou call centers.",
+            },
+        ],
+    },
 };

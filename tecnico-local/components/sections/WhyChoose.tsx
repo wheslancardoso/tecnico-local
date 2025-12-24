@@ -1,25 +1,4 @@
-const differentials = [
-    {
-        title: "Experiência Real",
-        description:
-            "Conhecimento prático adquirido em bancada técnica e atendimento em campo, lidando com falhas reais do dia a dia.",
-    },
-    {
-        title: "Múltiplas Marcas",
-        description:
-            "Atendimento técnico para computadores e impressoras de diversas marcas, sem dependência de fornecedor específico.",
-    },
-    {
-        title: "Transparência no Diagnóstico",
-        description:
-            "Avaliação técnica honesta, sem troca de peças desnecessárias ou orçamentos inflados.",
-    },
-    {
-        title: "Contato Direto",
-        description:
-            "Atendimento feito diretamente pelo técnico responsável, sem intermediários ou call centers.",
-    },
-];
+import { siteContent } from "@/content/site";
 
 interface DifferentialItemProps {
     title: string;
@@ -43,6 +22,8 @@ function DifferentialItem({ title, description }: DifferentialItemProps) {
 }
 
 export default function WhyChoose() {
+    const { whyChoose } = siteContent;
+
     return (
         <section className="py-20 bg-background-alt border-y border-gray-100">
             <div className="max-w-7xl mx-auto px-6">
@@ -60,18 +41,18 @@ export default function WhyChoose() {
                             </div>
                         </div>
                         <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-lg border border-gray-100 max-w-[200px] hidden md:block">
-                            <p className="text-4xl font-bold text-primary mb-1">100%</p>
+                            <p className="text-4xl font-bold text-primary mb-1">{whyChoose.highlight.value}</p>
                             <p className="text-sm text-text-secondary font-medium">
-                                Comprometimento com a solução
+                                {whyChoose.highlight.label}
                             </p>
                         </div>
                     </div>
                     <div className="order-1 lg:order-2">
                         <h2 className="text-3xl font-bold text-text-main mb-8">
-                            Por que contratar um suporte técnico especializado?
+                            {whyChoose.title}
                         </h2>
                         <ul className="space-y-6">
-                            {differentials.map((item, index) => (
+                            {whyChoose.differentials.map((item, index) => (
                                 <DifferentialItem
                                     key={index}
                                     title={item.title}
