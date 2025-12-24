@@ -1,5 +1,10 @@
 export const siteContent = {
+    siteName: "Técnico.Local",
     whatsappLink: "#", // Replace with actual WhatsApp link
+    contact: {
+        location: "São Paulo / SP - Zona Sul",
+        phone: "(11) 99999-9999",
+    },
     hero: {
         badge: "Disponível para atendimento",
         titlePrimary: "Manutenção de",
@@ -29,5 +34,8 @@ export const siteContent = {
             "Evite deixar seu equipamento parado. Fale diretamente com o técnico responsável.",
         buttonText: "Chamar no WhatsApp",
         availability: "Atendimento inclusive aos fins de semana",
+    },
+    footer: {
+        copyright: "Técnico Autônomo. Todos os direitos reservados.",
     },
 };
