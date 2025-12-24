@@ -38,6 +38,9 @@ export const siteContent = {
     footer: {
         copyright: "Técnico Autônomo. Todos os direitos reservados.",
     },
+    floatingButton: {
+        text: "WhatsApp",
+    },
     whyChoose: {
         title: "Por que contratar um suporte técnico especializado?",
         highlight: {
