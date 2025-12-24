@@ -18,9 +18,29 @@ const notoSans = Noto_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Técnico.Local - Manutenção de Computadores e Impressoras",
+  title: "Manutenção de Computadores e Impressoras em São Paulo - Zona Sul | Técnico.Local",
   description:
-    "Diagnóstico técnico preciso, reparos profissionais e atendimento direto ao cliente em São Paulo e Região.",
+    "Técnico autônomo especializado em manutenção de computadores e impressoras. Diagnóstico honesto, reparos profissionais e atendimento direto em São Paulo, Zona Sul. Atendimento em domicílio e laboratório.",
+  keywords: [
+    "manutenção de computadores",
+    "conserto de impressoras",
+    "técnico de informática",
+    "São Paulo",
+    "Zona Sul",
+    "atendimento em domicílio",
+  ],
+  authors: [{ name: "Técnico.Local" }],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "Manutenção de Computadores e Impressoras em São Paulo | Técnico.Local",
+    description:
+      "Diagnóstico técnico preciso, reparos profissionais e atendimento direto ao cliente em São Paulo, Zona Sul.",
+    type: "website",
+    locale: "pt_BR",
+  },
 };
 
 export default function RootLayout({
